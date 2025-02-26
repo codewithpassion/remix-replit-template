@@ -10,8 +10,8 @@ declare module "@remix-run/node" {
 
 export default defineConfig({
   server: {
-    allowedHosts: ["*", "db4c0e6b-8cb8-4b2c-901d-0aee4f49859b-00-j4s5x7nueom9.picard.replit.dev"],
-    host: "0.0.0.0",
+    host: true,
+    allowedHosts: true,
     port: 3000,
   },
   plugins: [
